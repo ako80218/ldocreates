@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(http-equiv="x-ua-compatible" content="ie=edge")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body.bg-ldo-card-light
+    //- include contact
+    include main-header
+    .main-content-wrapper
+        include main-navbar
+        main
+            block content
+    include main-footer
+    include ../public/svgs/sprite.svg
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="/javascripts/tether.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/additional-methods.min.js")
+    script(src="/javascripts/main.js")
+    

@@ -1,0 +1,34 @@
+.modal.fade.modal-ext#contactModal(tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true")
+    .modal-dialog(role="document")
+    //- Content
+    .container
+        .row
+            .col-md-12
+                .modal-content
+                    //- Header
+                    .modal-header
+                        button.close(type="button"  data-dismiss="modal" aria-label="Close")
+                            span(aria-hidden="true") &times;
+                        h4.modal-title.w-100.text-center#contactModalLabel Write LDO Creates
+                    //- Body
+                    .modal-body
+                        p.sr-only &ast; required 
+                        form#contactForm(action="mailto:andrewottoymail.com" role="form" method="post" enctype="text/plain")
+                            .md-form
+                                i.fa.fa-envelope.prefix
+                                label(for="form32") Your email &ast;
+                                input.form-control#form32(type="email" name="form32" required)
+                            .md-form
+                                i.fa.fa-tag.prefix
+                                label(for="form34") Subject 
+                                input.form-control#form34(type="text" name="form34")
+
+                            .md-form
+                                i.fa.fa-pencil.prefix
+                                label(for="form8") Message &ast;
+                                textarea.md-textarea#form8(type="text" name="form8" required)
+
+                            .text-xs-center
+                                button.btn.btn-primary Submit
+                    <!--Footer-->
+                <!--/.Content-->

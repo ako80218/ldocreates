@@ -1,0 +1,206 @@
+*, *::after, *::before {
+  box-sizing: border-box; }
+
+[id*="primary-"] {
+  fill: #150134; }
+
+[id*="secondary-"] {
+  fill: #A69AC8; }
+
+.color-ldo-purple-light {
+  color: #A69AC8 !important; }
+
+.color-ldo-purple-mid {
+  color: #5417FE !important; }
+
+.color-ldo-purple-dark {
+  color: #150134 !important; }
+
+.color-ldo-card-light {
+  color: #FFF9E7 !important; }
+
+.color-ldo-green-light {
+  color: #F5FCBB !important; }
+
+.bg-ldo-purple-light {
+  background-color: #A69AC8 !important; }
+
+.bg-ldo-purple-mid {
+  background-color: #5417FE !important; }
+
+.bg-ldo-purple-dark {
+  background-color: #150134 !important; }
+
+.bg-ldo-card-light {
+  background-color: #FFF9E7 !important; }
+
+.bg-ldo-card-mid {
+  background-color: #E5BE79 !important; }
+
+.bg-ldo-green-dark {
+  background-color: #434A00 !important; }
+
+.bg-ldo-brown-dark {
+  background-color: #633600 !important; }
+
+.ldo-green-btn {
+  background-color: #434A00 !important;
+  color: #F5FCBB !important; }
+
+.ldo-green-btn:hover {
+  background-color: #657300 !important;
+  color: #F5FCBB !important; }
+
+html, body {
+  height: 100%;
+  margin: 0; }
+
+.main-content-wrapper {
+  position: relative;
+  min-height: 100%;
+  margin-bottom: -60px;
+  padding-bottom: 60px;
+  display: flex; }
+
+.main-header {
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+.logo {
+  text-align: center;
+  flex: 0 0 187px; }
+
+.main-header .logo svg {
+  width: 100px;
+  height: 95px; }
+
+.header-middle-area {
+  flex: 1; }
+
+.menu-toggle-area {
+  display: none;
+  padding: 0 1rem; }
+
+.menu-toggle-area > a.btn > svg {
+  width: 26px;
+  height: 26px; }
+
+.menu-toggle-area > a.btn {
+  padding: .65rem; }
+
+.menu-btn {
+  stroke: currentColor;
+  stroke-width: 30; }
+
+.main-content-wrapper .ldo-main-nav {
+  flex: 0 0 100px; }
+
+.ldo-main-nav {
+  position: relative;
+  text-align: center;
+  z-index: 30;
+  padding: 1rem 0 0 0;
+  border-right: 1px #434A00 solid; }
+
+.ldo-main-nav > ul > li > a > svg {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 0.1rem;
+  display: block; }
+
+.ldo-main-nav .icon-nav {
+  fill: none;
+  stroke: #434A00;
+  stroke-width: 6; }
+
+.ldo-main-nav > ul > li {
+  position: relative; }
+
+.ldo-main-nav > ul > li > a {
+  display: inline-block;
+  padding: 0.75rem 0.5rem; }
+
+.ldo-main-nav > ul > li > a > span {
+  display: block;
+  transform: translateX(-100px);
+  transition: 0.1s; }
+
+.ldo-main-nav:hover > ul > li > a > span {
+  transform: translateX(0px); }
+
+.ldo-main-nav > ul > li > a, .ldo-main-nav > ul > li > a > span {
+  color: #434A00;
+  transition: 0.1s; }
+
+.ldo-main-nav > ul > li > a:hover {
+  opacity: 0.75;
+  transform: translateY(3px);
+  transition: 0.1s; }
+
+footer.page-footer {
+  height: 60px;
+  margin-top: 0; }
+
+.has-error .form-control, .has-error textarea.md-textarea {
+  border-bottom-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+
+.has-error .form-control:focus:not([readonly]), .has-error textarea.md-textarea:focus:not([readonly]) {
+  border-bottom-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
+
+.has-error i, .has-error i.prefix.active {
+  color: #a94442; }
+
+.modal .close {
+  position: absolute;
+  right: 15px; }
+
+.img-100 {
+  width: 100%; }
+
+@media (max-width: 1085px) {
+  .main-header .logo svg {
+    width: 80px;
+    height: 80px; }
+  .logo {
+    flex: 0 0 80px; }
+  .menu-toggle-area {
+    display: block; }
+  .main-content-wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .ldo-main-nav {
+    display: none; }
+  .ldo-main-nav.open {
+    display: block;
+    flex-basis: 100%;
+    border-right: none;
+    border-bottom: 1px #434A00 solid;
+    padding: 0; }
+  .ldo-main-nav.open > ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .ldo-main-nav.open > ul > li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center; }
+  .ldo-main-nav.open > ul > li > a {
+    font-size: 1.0rem;
+    padding: 0.5rem 0.25rem; }
+  .ldo-main-nav.open > ul > li > a > span {
+    transform: translateX(0px);
+    transition: 0s; } }
+
+@media (max-width: 425px) {
+  .text-xs-center {
+    text-align: center !important; } }
+
+/*# sourceMappingURL=style.css.map */
