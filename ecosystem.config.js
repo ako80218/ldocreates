@@ -21,8 +21,9 @@ module.exports = {
     {
       name      : 'web',
       script    : './bin/www',
-      env: {
-        PORT: 4000
+      
+      env_development: {
+        PORT: 3000
       },
       env_production:{
         PORT: 80
