@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
   		email: generalInfo.ldoContactEmail });
 });
 router.get('/about', function(req, res, next) {
-  res.render('about', {email: generalInfo.ldoContactEmail});
+  res.render('about', {title: generalInfo.siteTitle,
+  	email: generalInfo.ldoContactEmail});
 });
 
 module.exports = router;
