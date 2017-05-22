@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var generalInfo = require('../models/generalInfo.js')
+var generalInfo = require('../models/generalInfo.js');
+var utilities = require("../functions/utilities.js");
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: generalInfo.siteTitle,
@@ -16,17 +17,18 @@ router.get('/cards', function(req, res, next) {
 });
 
 router.get('/cards/:card', function(req, res, next) {
-	console.log("generalInfo.cardCategories", generalInfo.cardCategories)
-	var result = generalInfo.cardCategories.find(function(element){
-		return element === req.params.card;
-	})
-	if(result === req.params.card){
-		res.render('cards', {title: generalInfo.siteTitle,
-			heading:req.params.card
-		});
-	}else{
-		res.redirect('/');
-	}
+	// var category = //split join
+	// var result = generalInfo.cardCategories.find(function(element){
+	// 	return element === req.params.card;
+	// })
+	// if(result === req.params.card){
+	// 	res.render('cards', {title: generalInfo.siteTitle,
+	// 		heading:req.params.card
+	// 	});
+	// }else{
+	// 	res.redirect('/');
+	// }
+	console.log("req.params.card======>",req.params.card)
 });
 
 
