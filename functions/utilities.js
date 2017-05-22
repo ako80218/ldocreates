@@ -11,5 +11,9 @@ module.exports={
 			return;
 		}
 
+	},
+	sanitize: function(str){	
+		
+
 	}	
 }
