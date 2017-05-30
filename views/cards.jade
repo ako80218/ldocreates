@@ -6,3 +6,5 @@ block content
 			#mdb-lightbox-ui
 			.mdb-lightbox
 			figure.col-md-4
+			each image in images
+				img(src=image.thumbnail.src)
