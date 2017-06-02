@@ -1,0 +1,22 @@
+extends layout
+block content
+	.container-fluid
+		h1= heading
+		.row
+			#blueimp-gallery.blueimp-gallery.blueimp-gallery-controlsx
+				.slides
+				h3.title
+				a.prev ‹
+				a.next ›
+				a.close ×
+				a.play-pause
+				ol.indicator
+			#links.d-flex.w-100.flex-wrap
+				each image in images
+					.col-lg-3.col-md-6.mb-r
+						.card.collection-card.z-depth-1-half
+							.view.hm-zoom
+								a(href=image.fullRes.src)
+									img.img-fluid(src=image.thumbnail.src)
+block footerScripts
+	script(src="/javascripts/blueimp-gallery.min.js")

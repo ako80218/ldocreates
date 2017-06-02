@@ -1,6 +1,6 @@
 extends layout
 block content
-  .container
+  .container-fluid
     .row.my-3
       .col-md-7.mb-2
         .view.overlay.hm-white-light.z-depth-1-half
@@ -14,17 +14,16 @@ block content
       .col-md-3.mb-2
         .card.bg-ldo-card-light
           .view.overlay.hm-white-slight
-            img.img-fluid(src="/images/big-news.jpg")
-            a(href="#")
+            a(href="/cards/general")
+              img.img-fluid(src="/images/IMG_0098-thumbnail.jpg")
               //- .mask
           .card-block
-            h4.card-title.text-center Babies
-            //- a.btn.btn-primary(href="#") Learn more.
+            h4.card-title.text-center General
       .col-md-3.mb-2
         .card.bg-ldo-card-light
           .view.overlay.hm-white-slight
-            a(href="#")
-              img.img-fluid(src="/images/holidays.jpg")
+            a(href="/cards/holidays")
+              img.img-fluid(src="/images/IMG_0114-thumbnail.jpg")
               //- .mask
           .card-block
             h4.card-title.text-center Holidays
@@ -32,16 +31,32 @@ block content
       .col-md-3.mb-2
         .card.bg-ldo-card-light
           .view.overlay.hm-white-slight
-            img.img-fluid(src="/images/thank-you.jpg")
-            a(href="#")
+            a(href="/cards/thank-you")
+              img.img-fluid(src="/images/IMG_0102-thumbnail.jpg")
               //- .mask
           .card-block
             h4.card-title.text-center Thank You
       .col-md-3.mb-2
         .card.bg-ldo-card-light
           .view.overlay.hm-white-slight
-            img.img-fluid(src="/images/sympathy.jpg")
-            a(href="#")
+            a(href="/cards/babies")
+              img.img-fluid(src="/images/IMG_0086-thumbnail.jpg")
+              //- .mask
+          .card-block
+            h4.card-title.text-center Babies
+      .col-md-3.mb-2
+        .card.bg-ldo-card-light
+          .view.overlay.hm-white-slight
+            a(href="/cards/sympathy")
+              img.img-fluid(src="/images/IMG_0082-thumbnail.jpg")
               //- .mask
           .card-block
             h4.card-title.text-center Sympathy
+      .col-md-3.mb-2
+        .card.bg-ldo-card-light
+          .view.overlay.hm-white-slight
+            a(href="/cards/birthdays")
+              img.img-fluid(src="/images/IMG_0142-thumbnail.jpg")
+              //- .mask
+          .card-block
+            h4.card-title.text-center Birthdays
