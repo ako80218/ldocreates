@@ -48,17 +48,14 @@ module.exports={
 
 	},
 	assembleImages: function(arr, prop, param){
-		param = param || "home";
-		if(param === "home"){
+		if(!param && !prop){
 			return arr.filter(function(elem){
-				return elem["teaser"] === true;
+				return elem["home"] === true;
 			});
 		}else{
 			return arr.filter(function(elem){
 				return elem[prop] === param;
 			});
 		}
-
 	}
-
 }

@@ -32,7 +32,6 @@ router.get('/cards/:card', function(req, res, next) {
 		res.render('cards', {title: generalInfo.siteTitle,
 			heading:heading,
 			images:images,
-
 		});
 	}else{
 		res.redirect('/');
