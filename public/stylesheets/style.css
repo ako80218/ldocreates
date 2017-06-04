@@ -1,3 +1,9 @@
+/* Alex Brush font for site name */
+@font-face {
+  font-family: "alex-brush";
+  src: url("/stylesheets/alexbrush-regular_copy-webfont.woff2") format("woff2"), url("/stylesheets/alexbrush-regular_copy-webfont.woff") format("woff"), url("/stylesheets/AlexBrush-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 *, *::after, *::before {
   box-sizing: border-box; }
 
@@ -51,6 +57,9 @@
   background-color: #657300 !important;
   color: #F5FCBB !important; }
 
+.alex-brush {
+  font-family: "alex-brush" !important; }
+
 html, body {
   height: 100%;
   margin: 0; }
@@ -87,7 +96,7 @@ html, body {
   height: 26px; }
 
 .menu-toggle-area > a.btn {
-  padding: .65rem; }
+  padding: 0.65rem; }
 
 .menu-btn {
   stroke: currentColor;
@@ -166,40 +175,48 @@ footer.page-footer {
   .main-header .logo svg {
     width: 80px;
     height: 80px; }
+
   .logo {
     flex: 0 0 80px; }
+
   .menu-toggle-area {
     display: block; }
+
   .main-content-wrapper {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
+
   .ldo-main-nav {
     display: none; }
+
   .ldo-main-nav.open {
     display: block;
     flex-basis: 100%;
     border-right: none;
     border-bottom: 1px #434A00 solid;
     padding: 0; }
+
   .ldo-main-nav.open > ul {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex; }
+
   .ldo-main-nav.open > ul > li {
     -webkit-box-flex: 1;
     -moz-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
     text-align: center; }
+
   .ldo-main-nav.open > ul > li > a {
-    font-size: 1.0rem;
+    font-size: 1rem;
     padding: 0.5rem 0.25rem; }
+
   .ldo-main-nav.open > ul > li > a > span {
     transform: translateX(0px);
     transition: 0s; } }
-
-@media (max-width: 425px) {
+@media(max-width: 425px) {
   .text-xs-center {
     text-align: center !important; } }
 
