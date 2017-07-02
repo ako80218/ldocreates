@@ -49,10 +49,10 @@ $(function(){
 	$("#mobile-menu-toggle").on("click", function(e){
 		e.preventDefault();
 		$("#main-navbar").toggleClass("open")
-		if($("#mobile-menu-control").attr("href") === "#menu"){
-			$("#mobile-menu-control").attr("href" , "#close")
+		if($("#mobile-menu-control").attr("xlink:href") === "#menu"){
+			$("#mobile-menu-control").attr("xlink:href" , "#close")
 		}else{
-			$("#mobile-menu-control").attr("href", "#menu")
+			$("#mobile-menu-control").attr("xlink:href", "#menu")
 		}
 
 	})
