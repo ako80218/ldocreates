@@ -13,6 +13,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  color: #FFF9E7;
   /* Prevent artifacts in Mozilla Firefox: */
   -moz-backface-visibility: hidden;
   position: fixed;
@@ -168,6 +169,12 @@
     font-size: 30px;
     text-decoration: none;
     cursor: pointer; }
+  .blueimp-gallery > .close .icon-nav {
+    fill: none;
+    stroke: #434A00;
+    stroke-width: 6;
+    width: 25px;
+    height: 25px; }
   .blueimp-gallery > .play-pause {
     position: absolute;
     right: 15px;

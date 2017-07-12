@@ -12,12 +12,19 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
   body.bg-ldo-card-light
     //- include contact
-    include main-header
-    .main-content-wrapper
-        include main-navbar
-        main
-            block content
-    include main-footer
+    //- include main-header
+    //- .main-content-wrapper
+    //-     include main-navbar
+    //-     main
+    //-         block content
+    //- include main-footer
+    .flex-row.height-100
+        include main-header
+        .main-content-wrapper.d-flex
+            include main-navbar
+            main
+                block content
+        include main-footer
     include ../public/svgs/sprite.svg
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
     script(src="/javascripts/tether.min.js")
