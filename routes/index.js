@@ -23,6 +23,7 @@ router.get('/cards', function(req, res, next) {
 
 router.get('/cards/:card', function(req, res, next) {
 	// var heading = utilities.format(generalInfo.removableCharacters ,req.params.card);
+	console.log("generalInfo.cardCategories=======>", generalInfo.cardCategories);
 	var isCategory = generalInfo.cardCategories.find(function(element){
 		return element === req.params.card;
 	})

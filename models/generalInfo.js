@@ -1,9 +1,191 @@
 module.exports = {
 	siteTitle:"LDO Creates",
 	ldoContactEmail:"lynnotto@outlook.com",
-	cardCategories:["holidays", "birthdays", "general", "thank-you", "babies", "sympathy"],
+	cardCategories:["hawaiian","holidays", "birthdays", "general", "thank-you", "babies", "sympathy"],
 	removableCharacters:["-"],
 	images:[
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0160-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0160-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0161-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0161-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0165-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0165-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0167-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0167-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0173-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0173-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0176-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0176-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0187-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0187-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0178-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0178-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0181-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0181-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0195-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0195-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0257-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0257-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0248-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0248-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0254-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0254-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0251-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0251-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
 		{
 			home: true,
 			category: "babies",
