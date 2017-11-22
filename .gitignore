@@ -31,3 +31,6 @@ npm-debug.log
 
 development
 .DS_Store
+
+#Directory for all raw image assets
+image_assets

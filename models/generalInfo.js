@@ -1,7 +1,7 @@
 module.exports = {
 	siteTitle:"LDO Creates",
 	ldoContactEmail:"lynnotto@outlook.com",
-	cardCategories:["hawaiian","holidays", "birthdays", "general", "thank-you", "babies", "sympathy"],
+	cardCategories:["hawaiian", "holidays", "birthdays", "general", "thank-you", "babies", "sympathy"],
 	removableCharacters:["-"],
 	images:[
 		{
