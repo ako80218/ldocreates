@@ -28,8 +28,16 @@ app.use(require('node-sass-middleware')({
   indentedSyntax: true,
   sourceMap: true
 }));
-//{ maxAge: oneYear } for caching of static assets
-app.use(express.static(path.join(__dirname, 'public'), { maxAge: '1y' }));
+//{ maxAge: '1y' } for caching of static assets
+app.use(express.static(path.join(__dirname, 'public'), {  
+    extensions:["jpeg", "jpg", "png", "css", "js"],
+    setHeaders: function (res, path, stat) {
+    if(path.indexOf("/javascripts/") !== -1 || path.indexOf("/stylesheets/") || path.indexOf("/images/") !== -1 ){
+      res.set('Cache-Control','public, max-age=31536000')
+    }
+  }
+
+  }));
 
 app.use('/', index);
 app.use('/users', users);
