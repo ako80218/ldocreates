@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 //Implement browser caching value
-var oneYear = 31557600000;
+
 //
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -29,7 +29,7 @@ app.use(require('node-sass-middleware')({
   sourceMap: true
 }));
 //{ maxAge: oneYear } for caching of static assets
-app.use(express.static(path.join(__dirname, 'public'),  { maxAge: oneYear }));
+app.use(express.static(path.join(__dirname, 'public'), { maxAge: '1y' }));
 
 app.use('/', index);
 app.use('/users', users);
@@ -51,5 +51,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
 
 module.exports = app;

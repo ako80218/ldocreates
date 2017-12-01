@@ -10,7 +10,7 @@ var sass = require('gulp-sass');
 gulp.task('mozjpeg', () =>
     gulp.src('image_assets/*.jpg')
     .pipe(imagemin([imageminMozjpeg({
-        quality: 85
+        quality: 80
     })]))
     .pipe(gulp.dest('public/images'))
 );
