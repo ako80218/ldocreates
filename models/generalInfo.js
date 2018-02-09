@@ -22,6 +22,97 @@ module.exports = {
 			category: "hawaiian",
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_0288-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0288-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0294-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0294-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0297-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0297-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0302-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0302-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0304-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0304-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0307-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0307-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_0308-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0308-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_0161-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
