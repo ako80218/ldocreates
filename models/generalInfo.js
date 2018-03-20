@@ -22,6 +22,19 @@ module.exports = {
 			category: "hawaiian",
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_1075-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1075-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_0288-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -334,6 +347,19 @@ module.exports = {
 			category: "thank-you",
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_1067-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1067-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: "thank-you",
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_0102-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -430,6 +456,19 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_4379-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: "birthdays",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1065-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1065-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
@@ -625,6 +664,19 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_0154-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "general",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1071-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1071-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
