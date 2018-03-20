@@ -37,6 +37,8 @@ router.get('/cards', function(req, res, next) {
 router.get('/cards/:card', function(req, res, next) {
 	// var heading = utilities.format(generalInfo.removableCharacters ,req.params.card);
 	var isCategory = generalInfo.cardCategories.find(function(element){
+		console.log("element=====>", element);
+		console.log("req.params.card=====>", req.params.card);
 		return element === req.params.card;
 	})
 	if(isCategory){

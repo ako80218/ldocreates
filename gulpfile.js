@@ -8,11 +8,12 @@ var sass = require('gulp-sass');
 
 //Optimize our JPEGS
 gulp.task('mozjpeg', () =>
-    gulp.src('image_assets/*.jpg')
+    gulp.src('./development/images/exports/*/*.jpg')
     .pipe(imagemin([imageminMozjpeg({
-        quality: 80
+        quality: 80,
+        progressive: true
     })]))
-    .pipe(gulp.dest('public/images'))
+    .pipe(gulp.dest('./development/images/optimized'))
 );
 
 //Render .sass to .css
