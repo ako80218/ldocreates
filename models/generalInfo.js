@@ -334,6 +334,19 @@ module.exports = {
 			category: "special-occasions",
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_0311-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_0311-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "special-occasions",
+			keywords:[],
+			thumbnail: {
 				src: "/images/FullSizeRender-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
