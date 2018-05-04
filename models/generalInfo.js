@@ -1,9 +1,191 @@
 module.exports = {
 	siteTitle:"LDO Creates",
 	ldoContactEmail:"lynnotto@outlook.com",
-	cardCategories:["hawaiian", "holidays", "birthdays", "general", "thank-you", "special-occasions", "sympathy"],
+	cardCategories:["hawaiian", "beach", "holidays", "birthdays", "general", "thank-you", "special-occasions", "sympathy"],
 	removableCharacters:["-"],
 	images:[
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1474-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1474-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1476-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1476-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1478-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1478-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1480-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1480-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1483-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1483-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1488-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1488-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1490-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1490-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1493-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1493-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1495-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1495-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1496-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1496-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "beach",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1498-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1498-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1501-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1501-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1503-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1503-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: "hawaiian",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1505-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1505-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
 		{
 			home: false,
 			category: "hawaiian",
@@ -469,6 +651,19 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_4379-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+				{
+			home: false,
+			category: "birthdays",
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1486-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1486-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
