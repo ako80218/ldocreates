@@ -146,7 +146,19 @@ html, body {
   transform: translateY(3px);
   transition: 0.1s; }
 
-.ldo-hero > img {
+.ldo-hero {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%; }
+
+.ldo-hero > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.ldo-hero > div > img {
   width: 100%; }
 
 .carousel-item {
