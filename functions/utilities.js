@@ -54,7 +54,11 @@ module.exports={
 			});
 		}else{
 			return arr.filter(function(elem){
-				return elem[prop] === param;
+
+				console.log("elem[prop]====>", elem[prop]);
+				return elem[prop].find(function(el){
+					return el === param;
+				}) 
 			});
 		}
 	}

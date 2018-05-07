@@ -13,7 +13,7 @@ gulp.task('mozjpeg', () =>
         quality: 80,
         progressive: true
     })]))
-    .pipe(gulp.dest('./development/images/optimized'))
+    .pipe(gulp.dest('development/images/optimized'))
 );
 
 //Render .sass to .css
