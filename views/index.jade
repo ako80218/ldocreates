@@ -1,12 +1,24 @@
 extends layout
 block content
-  #slideshow.w-100.ldo-hero
-    div 
-      img.img-fluid(src="/images/IMG_0283.jpg")
-    div
-      img.img-fluid(src="/images/IMG_1706.jpg")
-    div
-      img.img-fluid(src="/images/IMG_1719.jpg")
+  //- #slideshow.w-100.ldo-hero
+  #slideshow.carousel.slide.carousel-fade(data-ride="carousel")
+    .carousel-inner(role="listbox")
+      .carousel-item.active 
+        picture
+          //- source(srcset="images/IMG_FILE_ASPECT_WIDTH.jpg" media="(min-width: 425px) and (max-width: 767px)")
+          source(srcset="images/" media="(min-width: 425px) and (max-width: 767px)")
+          source(srcset="images/IMG_" media="(min-width: 768)")
+          img.d-block.w-100(src="/images/IMG_0283.jpg")
+      .carousel-item
+        picture
+          source(srcset="images/IMG_" media="(min-width: 425px) and (max-width: 767px)")
+          source(srcset="images/IMG_" media="(min-width: 768)")
+          img.d-block.w-100(src="/images/IMG_1706.jpg")
+      .carousel-item
+        picture
+          source(srcset="images/IMG_" media="(min-width: 425px) and (max-width: 767px)")
+          source(srcset="images/IMG_" media="(min-width: 768)")
+          img.d-block.w-100(src="/images/IMG_1719.jpg")
   .container-fluid
     .row
       .my-4

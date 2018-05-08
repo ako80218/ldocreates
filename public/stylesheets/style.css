@@ -161,15 +161,6 @@ html, body {
 .ldo-hero > div > img {
   width: 100%; }
 
-.carousel-item {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 footer.page-footer {
   height: 60px;
   margin-top: 0; }
