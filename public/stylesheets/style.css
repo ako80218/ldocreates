@@ -161,6 +161,10 @@ html, body {
 .ldo-hero > div > img {
   width: 100%; }
 
+.home-top {
+  padding-top: 30px;
+  padding-bottom: 15px; }
+
 footer.page-footer {
   height: 60px;
   margin-top: 0; }
@@ -224,6 +228,8 @@ footer.page-footer {
 
 @media (max-width: 425px) {
   .text-xs-center {
-    text-align: center !important; } }
-
-/*# sourceMappingURL=style.css.map */
+    text-align: center !important; }
+  #slideshow, .home-top {
+    padding: 0; }
+  .headline {
+    padding-top: 30px; } }

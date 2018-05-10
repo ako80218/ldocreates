@@ -2,8 +2,8 @@ extends layout
 block content
   //- #slideshow.w-100.ldo-hero
   .container-fluid
-    .row  
-      #slideshow.col-12.col-md-9.carousel.slide.carousel-fade(data-ride="carousel" style="padding-top:2em; padding-bottom:1em;")
+    .row.home-top  
+      #slideshow.col-12.col-md-9.carousel.slide.carousel-fade(data-ride="carousel")
         .carousel-inner(role="listbox")
           .carousel-item.active 
             picture
@@ -31,7 +31,7 @@ block content
               source(srcset="/images/IMG_1719_4X3_1696.jpg" media="(min-width:768px)")
               source(srcset="/images/IMG_1719_4X3_848.jpg" media="(max-width:424px) and (-webkit-min-device-pixel-ratio: 2)")
               img.d-block.w-100(src="/images/IMG_1719_4X3_424.jpg")
-      .my-4.col-12.col-md-3
+      .col-12.col-md-3.headline
         h2.text-fluid.text-center LDO Creates introduces handmade greeting cards!
 
         p LDO Creates is the vision of master card maker Lynn Otto, who believes cards are more than a greeting. They're how people connect. The details and craftmanship in each of Lynn's cards are a great way to express yourself to someone. Want to learn more about these cards? 
