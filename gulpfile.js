@@ -9,12 +9,12 @@ var browserSync = require('browser-sync');
 
 //Optimize our JPEGS
 gulp.task('mozjpeg', () =>
-    gulp.src('./development/images/exports/*.jpg')
+    gulp.src('./development/images/exports/**/*.jpg')
     .pipe(imagemin([imageminMozjpeg({
         quality: 80,
         progressive: true
     })]))
-    .pipe(gulp.dest('development/images/optimized'))
+    .pipe(gulp.dest('public/images'))
 );
 
 //Render .sass to .css

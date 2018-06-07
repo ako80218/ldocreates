@@ -646,11 +646,63 @@ module.exports = {
 			category: ["special-occasions"],
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_1797-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1797-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["special-occasions"],
+			keywords:[],
+			thumbnail: {
 				src: "/images/FullSizeRender-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
 			fullRes: {
 				src: "/images/FullSizeRender-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["special-occasions"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1802-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1802-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["special-occasions"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1804-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1804-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["special-occasions"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1806-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1806-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
@@ -854,6 +906,45 @@ module.exports = {
 			category: ["general"],
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_1794-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1794-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["general"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1810-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1810-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["general"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1812-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1812-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["general"],
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_0098-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -1002,6 +1093,19 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_1071-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["sympathy"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1809-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1809-thumbnail.jpg",
 				alt: "Image of a card.",
 			}
 		},
