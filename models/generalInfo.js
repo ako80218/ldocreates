@@ -594,6 +594,19 @@ module.exports = {
 			category: ["special-occasions"],
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_1835-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1835-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["special-occasions"],
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_1051-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -729,6 +742,32 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_0102-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["thank-you"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1833-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1833-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["thank-you"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1830-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1830-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
