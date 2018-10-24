@@ -29,6 +29,9 @@
 .color-ldo-green-light {
   color: #F5FCBB !important; }
 
+.color-ldo-card-light {
+  color: #FFF9E7 !important; }
+
 .bg-ldo-purple-light {
   background-color: #A69AC8 !important; }
 
@@ -146,6 +149,17 @@ html, body {
   transform: translateY(3px);
   transition: 0.1s; }
 
+.nav-link:hover {
+  color: #E5BE79 !important; }
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #1d1e1f;
+  text-decoration: none;
+  background-color: #A69AC8; }
+
+.dropdown-menu {
+  background-color: #FFF9E7; }
+
 .ldo-hero {
   position: relative;
   width: 100%;
@@ -162,8 +176,15 @@ html, body {
   width: 100%; }
 
 .home-top {
-  padding-top: 30px;
+  padding-top: 15px;
   padding-bottom: 15px; }
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+  width: 72px;
+  height: 72px; }
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+  color: #A69AC8; }
 
 footer.page-footer {
   height: 60px;

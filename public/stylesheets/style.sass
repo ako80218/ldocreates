@@ -35,6 +35,8 @@ $font: 'Petit Formal Script' , cursive
     color: $ldo-card-light !important
 .color-ldo-green-light
     color: $ldo-green-light !important
+.color-ldo-card-light
+    color: $ldo-card-light !important
 .bg-ldo-purple-light
     background-color: $ldo-purple-light !important
 .bg-ldo-purple-mid
@@ -138,6 +140,15 @@ html, body
     opacity: 0.75
     transform: translateY(3px) 
     transition: 0.1s
+.nav-link:hover
+    color: $ldo-card-mid !important
+
+.dropdown-item:focus, .dropdown-item:hover 
+    color: #1d1e1f
+    text-decoration: none
+    background-color: $ldo-purple-light
+.dropdown-menu
+    background-color: $ldo-card-light
 
 .ldo-hero
     position: relative
@@ -156,7 +167,7 @@ html, body
     width: 100%
 
 .home-top
-    padding-top: 30px
+    padding-top: 15px
     padding-bottom: 15px
 
 
@@ -168,6 +179,14 @@ html, body
 //     -moz-background-size: cover
 //     -o-background-size: cover
 //     background-size: cover
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon 
+    width: 72px
+    height: 72px
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover
+    color: $ldo-purple-light
+
 
 
 footer.page-footer

@@ -1,9 +1,9 @@
 //- header.main-header.bg-ldo-purple-dark.p-2
 header.main-header.p-2.bg-ldo-purple-dark
-  .menu-toggle-area
-    a#mobile-menu-toggle.btn.btn-primary.bg-ldo-green-dark.ldo-green-btn.waves-effect.waves-light
-      svg
-        use#mobile-menu-control(xlink:href="#menu")
+  //- .menu-toggle-area
+  //-   a#mobile-menu-toggle.btn.btn-primary.bg-ldo-green-dark.ldo-green-btn.waves-effect.waves-light
+  //-     svg
+  //-       use#mobile-menu-control(xlink:href="#menu")
   .logo
     //- a.color-ldo-purple-light(href='/') 
     //-   img.img-100(src="/images/logo.svg")
@@ -13,21 +13,18 @@ header.main-header.p-2.bg-ldo-purple-dark
     a(href="/")
       //- h1.alex-brush.color-ldo-purple-light.h1-responsive.text-uppercase.text-xs-center LDO Creates
       h1.brand-font.color-ldo-purple-light.h1-responsive.text-xs-center LDO Creates
-  //- Navbar
-  //- nav.navbar.navbar-dark.navbar-toggleable-md.bg-ldo-purple-dark
-  //-   .container 
-  //-     //- Collapse button
-  //-     button.navbar-toggler.navbar-toggler-right.collapsed(type='button', data-toggle='collapse', data-target='#collapseNav')
-  //-       i.fa.fa-bars     
-  //-       //- Collapse content
-  //-     //-Navbar Brand
-  //-     a.navbar-brand.color-ldo-purple-light(href='/') 
-  //-       img.img-100(src="/images/logo.svg")
-  //-     #collapseNav.collapse.navbar-collapse.navbar-toggleable-xs
-  //-       //- Links
-  //-       ul.nav.navbar-nav.mr-auto                     
-  //-         li.nav-item
-  //-           a.nav-link.color-ldo-card-light(href='/about') About
-  //-         li.nav-item
-  //-           a.nav-link.color-ldo-card-light(href='#' data-toggle="modal" data-target="#contactModal") Contact
-    //- .Navbar
+  ul.nav.justify-content-end.lighten-4.py-4
+    li.nav-item.dropdown
+      a.nav-link.color-ldo-card-light.dropdown-toggle(data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+      aria-expanded="false") Card Categories
+        .dropdown-menu
+          a.dropdown-item(href="/cards/holidays") Holidays
+          a.dropdown-item(href="/cards/thank-you") Thank You
+          a.dropdown-item(href="/cards/birthdays") Birthdays
+          a.dropdown-item(href="/cards/sympathy") Sympathy
+          a.dropdown-item(href="/cards/special-occaisions") Special Occaisions
+          a.dropdown-item(href="/cards/hawaiian") Hawaiian
+          a.dropdown-item(href="/cards/beach") Beach
+          a.dropdown-item(href="/cards/general") General
+    li.nav-item
+      a.nav-link.color-ldo-card-light(href="mailto:#{email}") Contact LDO
