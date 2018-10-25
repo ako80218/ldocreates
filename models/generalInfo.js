@@ -874,7 +874,7 @@ module.exports = {
 				src: "/images/IMG_2722-full.jpg",
 				alt: "Image of a card.",
 			}
-		},
+		},		
 		{
 			home: false,
 			category: ["holidays"],
@@ -885,6 +885,32 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_2724-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["holidays"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_2776-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2776-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["holidays"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_2777-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2777-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
