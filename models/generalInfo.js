@@ -269,6 +269,19 @@ module.exports = {
 			category: ["birthdays"],
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_2452-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2452-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["birthdays"],
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_2742-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -300,6 +313,19 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_2746-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["birthdays"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_2504-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2504-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
@@ -711,6 +737,19 @@ module.exports = {
 			category: ["special-occasions"],
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_2501-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2501-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["special-occasions"],
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_1051-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -828,6 +867,32 @@ module.exports = {
 			category: ["thank-you"],
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_2491-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2491-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["thank-you"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_2503-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2503-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["thank-you"],
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_1067-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -885,6 +950,19 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_2724-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: false,
+			category: ["holidays"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_2497-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2497-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
@@ -1127,6 +1205,20 @@ module.exports = {
 			category: ["general"],
 			keywords:[],
 			thumbnail: {
+				src: "/images/IMG_2488-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_2488-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+
+		{
+			home: true,
+			category: ["general"],
+			keywords:[],
+			thumbnail: {
 				src: "/images/IMG_2709-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
@@ -1275,6 +1367,19 @@ module.exports = {
 			},
 			fullRes: {
 				src: "/images/IMG_1071-full.jpg",
+				alt: "Image of a card.",
+			}
+		},
+		{
+			home: true,
+			category: ["sympathy"],
+			keywords:[],
+			thumbnail: {
+				src: "/images/IMG_1809-thumbnail.jpg",
+				alt: "Image of a card.",
+			},
+			fullRes: {
+				src: "/images/IMG_1809-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
