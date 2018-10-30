@@ -1375,11 +1375,11 @@ module.exports = {
 			category: ["sympathy"],
 			keywords:[],
 			thumbnail: {
-				src: "/images/IMG_1809-thumbnail.jpg",
+				src: "/images/IMG_2496-thumbnail.jpg",
 				alt: "Image of a card.",
 			},
 			fullRes: {
-				src: "/images/IMG_1809-full.jpg",
+				src: "/images/IMG_2496-full.jpg",
 				alt: "Image of a card.",
 			}
 		},
